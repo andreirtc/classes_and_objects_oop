@@ -5,3 +5,7 @@ from TV import TV
 def test_TV():
     tv1 = TV()
     tv2 = TV()
+
+    tv1.turn_on
+    tv1.set_channel(30)
+    tv1.set_volume(3)
