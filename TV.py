@@ -20,6 +20,13 @@ class TV:
     def set_channel(self, channel):
         if 1 <= channel <= 120:
             self.channel = channel
+    
+    def get_volume(self):
+        return self.volume_level
+    
+    def set_volume(self, volume_level):
+        if 1 <= volume_level <= 7:
+            self.volume_level = volume_level
 
 
 # 2. When the class or the blueprint of the TV is done, create another file named test_tv.py to test and produce the channel and volume level of tv 1 and tv 2
